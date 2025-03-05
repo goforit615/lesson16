@@ -36,7 +36,7 @@ public class TestMain {
         Student student1 = new Student(181213, "안성원", korean);
         Student student2 = new Student(181518, "오태훈", math);
         Student student3 = new Student(171230, "이동호", korean);
-        Student student4 = new Student(171230, "이동호", korean);
+        Student student4 = new Student(171255, "조성욱", korean);
         Student student5 = new Student(171590, "최태평", math);
 
         goodSchool.addStudent(student1);
