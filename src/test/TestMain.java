@@ -64,7 +64,7 @@ public class TestMain {
         addScoreForStudent(student2, math, 95);
 
         addScoreForStudent(student3, korean, 100);
-        addScoreForStudent(student3, math, 95);
+        addScoreForStudent(student3, math, 88);
 
         addScoreForStudent(student4, korean, 89);
         addScoreForStudent(student4, math, 95);
@@ -73,7 +73,7 @@ public class TestMain {
         addScoreForStudent(student5, math, 56);
     }
 
-    public void addScoreForStudent(Student student, Subject subject, int score) {
+    public void addScoreForStudent(Student student, Subject subject, int point) {
         Score score = new Score(student.getStudentId(), subject, point);
         student.addSubjectScore(score);
     }
